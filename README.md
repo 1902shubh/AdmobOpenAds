@@ -25,5 +25,5 @@ Add it in your root app.gradle at the end of repositories: <br/>
 		...
 	}
 ```
-<br/>
+<br/><br/>
 ## Made with :sparkling_heart: [Papaya Coders](https://papayacoders.in/)
