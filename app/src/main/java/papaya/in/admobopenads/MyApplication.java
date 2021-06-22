@@ -11,7 +11,7 @@ public class MyApplication extends Application {
         super.onCreate();
         MobileAds.initialize(this);
 
-        new AppOpenManager(this);
+        new AppOpenManager(this, "ca-app-pub-3940256099942544/3419835294");
 
     }
 

@@ -21,7 +21,7 @@ import androidx.lifecycle.ProcessLifecycleOwner;
 public class AppOpenManager  implements LifecycleObserver, Application.ActivityLifecycleCallbacks {
 
     private static final String LOG_TAG = "AppOpenManager";
-    private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/3419835294";
+    private static String AD_UNIT_ID;
     private AppOpenAd appOpenAd = null;
     private static boolean isShowingAds = false;
 
@@ -31,7 +31,8 @@ public class AppOpenManager  implements LifecycleObserver, Application.ActivityL
 
     private Activity currentActivity;
 
-    public AppOpenManager(Application myApplication) {
+    public AppOpenManager(Application myApplication, String adId) {
+        AD_UNIT_ID = adId;
         this.myApplication = myApplication;
         this.myApplication.registerActivityLifecycleCallbacks(this);
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
