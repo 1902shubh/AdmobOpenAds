@@ -1,7 +1,8 @@
 ### `Latest version : 1.0.1`
 
 # AdmobOpenAds
-Implement admob open ads in your android app.
+Implement admob open ads in your android app.<br/><br/>
+ <img src="https://user-images.githubusercontent.com/46995327/122922701-8b862b80-d381-11eb-8431-4030ef740f81.jpg" width="250"  alt="DEMO"/>
 
 # How to
 To get a Git project into your build:
