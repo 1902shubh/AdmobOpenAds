@@ -17,8 +17,10 @@ Add it in your root build.gradle at the end of repositories: <br/>
 
 Add it in your root app.gradle at the end of repositories: <br/>
 ```
-dependencies {
+	dependencies {
+		...
 	        implementation 'com.github.1902shubh:AdmobOpenAds:1.0.0'
+		...
 	}
 ```
 <br/><br/>
