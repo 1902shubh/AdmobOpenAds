@@ -21,5 +21,5 @@ dependencies {
 	        implementation 'com.github.1902shubh:AdmobOpenAds:1.0.0'
 	}
 ```
-
+<br/><br/>
 ## Made with :sparkling_heart: [Papaya Coders](https://papayacoders.in/)
